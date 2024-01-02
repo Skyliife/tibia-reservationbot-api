@@ -1,7 +1,7 @@
 import axios from 'axios';
-import {DISCORD_API_URL} from "../../utils/constants";
-import {PartialGuild} from "../../utils/types";
-import {User} from "../../database/schemas";
+import {DISCORD_API_URL} from "../../../utils/constants";
+import {PartialGuild} from "../../../utils/types";
+import {User} from "../../../database/schemas";
 
 export function getBotGuildsService() {
     const TOKEN = process.env.DISCORD_CLIENT_TOKEN!;

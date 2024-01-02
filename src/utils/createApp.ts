@@ -8,6 +8,7 @@ import store from "connect-mongo";
 
 config();
 require('../strategies/discord');
+require('../strategies/bearer');
 
 export function createApp(): Express {
     const app = express();

@@ -13,6 +13,7 @@
     "@types/express-session": "^1.17.10",
     "@types/passport": "^1.0.16",
     "@types/passport-discord": "^0.1.11",
+    "@types/passport-http-bearer": "^1.0.41",
     "dotenv": "^16.3.1",
     "nodemon": "^3.0.2",
     "ts-node": "^10.9.2",
@@ -26,7 +27,8 @@
     "express-session": "^1.17.3",
     "mongoose": "^8.0.3",
     "passport": "^0.7.0",
-    "passport-discord": "^0.1.4"
+    "passport-discord": "^0.1.4",
+    "passport-http-bearer": "^1.0.1"
   },
   "scripts": {
     "start": "node ./build/index.js",
